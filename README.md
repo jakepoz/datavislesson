@@ -12,3 +12,4 @@ frequency your microphone is hearing at the moment.
 4. [Part 4 - building a simple spectrum analyzer.](parts/4_spectrum.py)
 5. [Part 5 - displaying the dominant frequency.](parts/5_final.py)
 
+![preview](img.png)

@@ -71,7 +71,7 @@ while True:
             peak_bin = i
 
     freqs = np.fft.rfftfreq(FFT_BINS, 1.0/RATE)
-    bars.draw_text(f"Peak = {freqs[peak_bin]}", location=(100, 0.7), font="Arial 50", color="black")
+    bars.draw_text(f"Peak = {freqs[peak_bin]}Hz", location=(100, 0.7), font="Arial 50", color="black")
 
 stream.close()
 window.close()
